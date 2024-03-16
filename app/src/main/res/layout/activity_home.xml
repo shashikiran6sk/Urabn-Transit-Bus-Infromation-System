@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#1A237E"
+
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="160dp"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="229dp"
+            android:layout_marginRight="229dp"
+            android:layout_marginBottom="24dp"
+            android:text="BACK" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_width="69dp"
+            android:layout_height="57dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginBottom="47dp"
+            app:srcCompat="@drawable/arrow" />
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="134dp"
+            android:layout_height="91dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginLeft="129dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginRight="148dp"
+            android:layout_marginBottom="430dp"
+            app:srcCompat="@drawable/road" />
+
+        <Spinner
+            android:id="@+id/departure"
+            style="@android:style/Widget.DeviceDefault.Light.Spinner"
+            android:layout_width="361dp"
+            android:layout_height="73dp"
+            android:layout_above="@+id/imageView7"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="3dp"
+            android:background="#8C51D5"
+
+            />
+
+        <Button
+            android:id="@+id/timing"
+            android:layout_width="174dp"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginEnd="204dp"
+            android:layout_marginRight="204dp"
+            android:layout_marginBottom="219dp"
+            android:text="Timing" />
+
+        <Button
+            android:id="@+id/schedule"
+            android:layout_width="170dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="219dp"
+            android:text="Schedule"
+            android:textColorHighlight="#880E4F"
+            android:textColorHint="#880E4F"
+            android:textColorLink="#880E4F" />
+
+        <Spinner
+            android:id="@+id/arrival"
+            android:layout_width="365dp"
+            android:layout_height="73dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="361dp"
+            android:background="#298B8F"
+            android:dropDownSelector="@android:drawable/arrow_down_float" />
+
+        <ImageView
+            android:id="@+id/AboutUs"
+            android:layout_width="68dp"
+            android:layout_height="57dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="279dp"
+            android:layout_marginRight="279dp"
+            android:layout_marginBottom="54dp"
+            app:srcCompat="@drawable/about" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
