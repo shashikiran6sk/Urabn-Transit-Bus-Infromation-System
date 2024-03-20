@@ -1141,9 +1141,20 @@ public class HomeActivity extends AppCompatActivity {
 
             timelyTextView.setText("nearestSourceTime");
 //            System.out.println(nearestSourceTime);
+
+
+	if (!nearestSourceTime.isEmpty()) {
             Intent intent = new Intent(HomeActivity.this,TimeActivity.class);
             intent.putExtra("message",nearestSourceTime);
             startActivity(intent);
+        } else {
+            Toast.makeText(this, "No schedule found for the selected source and destination within the specified time range.", Toast.LENGTH_SHORT).show();
+        }
+
+
+
+
+            
         }catch(Exception e){
             System.out.println(e);
         }
